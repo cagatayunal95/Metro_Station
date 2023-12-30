@@ -1,0 +1,20 @@
+avg_rent_price ~ having_car + not_having_car + Nufus
+
+
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+ -9450  -3699  -2176   2022  17403 
+
+Coefficients: (1 not defined because of singularities)
+                   Estimate   Std. Error t value   Pr(>|t|)    
+(Intercept)    14588.421276  3821.238765   3.818   0.000234 ***
+having_car       363.208144    74.562204   4.871 0.00000416 ***
+not_having_car           NA           NA      NA         NA    
+Nufus             -0.008671     0.004613  -1.880   0.063061 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 6740 on 100 degrees of freedom
+Multiple R-squared:  0.3265,	Adjusted R-squared:  0.313 
+F-statistic: 24.24 on 2 and 100 DF,  p-value: 0.000000002616

@@ -1,0 +1,19 @@
+avg_rent_price ~ owing + rent
+
+
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-10657  -4477  -2103   4356  18939 
+
+Coefficients: (1 not defined because of singularities)
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -10066.8     5930.8  -1.697   0.0927 .  
+owing          599.0      113.4   5.282 7.36e-07 ***
+rent              NA         NA      NA       NA    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 7233 on 101 degrees of freedom
+Multiple R-squared:  0.2165,	Adjusted R-squared:  0.2087 
+F-statistic:  27.9 on 1 and 101 DF,  p-value: 7.359e-07
